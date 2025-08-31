@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Startup Pitch Generator</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1> Startup Pitch Generator</h1>
+    <input id="ideaInput" placeholder="Enter your startup idea" />
+    <button onclick="generatePitch()">Generate Pitch</button>
+    <button onclick="downloadPDF()">Download PDF</button>
+
+    <div id="pitchDisplay" style="display:none;">
+      <h2>Your Pitch Deck</h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
